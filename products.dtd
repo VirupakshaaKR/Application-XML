@@ -1,0 +1,38 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT category (Science, Technology)>
+<!ATTLIST category
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Science (author name,topic given,no of words,edits made)>
+<!ATTLIST Science
+  xmlns CDATA #FIXED ''
+  bno NMTOKEN #REQUIRED>
+
+<!ELEMENT Technology (author name,topic given,no of words,edits made)>
+<!ATTLIST Technology
+  xmlns CDATA #FIXED ''
+  bno NMTOKEN #REQUIRED>
+
+
+<!ELEMENT author name (#PCDATA)>
+<!ATTLIST author name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT topic given  (#PCDATA)>
+<!ATTLIST topic given
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT no of words  (#PCDATA)>
+<!ATTLIST no of words
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT edits made (#PCDATA)>
+<!ATTLIST edits made
+  xmlns CDATA #FIXED ''>
+
+
+
+
+
+

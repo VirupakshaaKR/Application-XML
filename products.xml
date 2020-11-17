@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE products SYSTEM "products.dtd">
+<category>
+<Science bno="m1">
+  <authorname>John </authorname>
+  <topicgiven>What is a black hole ?</topicgiven>
+  <noofwords>360</noofwords>
+  <editsmade>1 </editsmade>  
+</science>
+<Science bno="m2">
+  <authorname>Flen </authorname>
+  <topicgiven>NASA</topicgiven>
+  <noofwords>400</noofwords>
+  <editsmade>2 </editsmade>  
+</science>
+<Science bno="m3">
+  <authorname>Harry</authorname>
+  <topicgiven>Terraforming mars</topicgiven>
+  <noofwords>450</noofwords>
+  <editsmade>1 </editsmade>  
+</science>
+<Science bno="m4">
+  <authorname>William </authorname>
+  <topicgiven>Life on earth</topicgiven>
+  <noofwords>200</noofwords>
+  <editsmade>3 </editsmade>  
+</science>
+<Science bno="m5">
+  <authorname>Monica </authorname>
+  <topicgiven>Dolphins</topicgiven>
+  <noofwords>300</noofwords>
+  <editsmade>2 </editsmade>  
+</science>
+<technology bno="m1">
+  <authorname>Elsa </authorname>
+  <topicgiven>AElectric cars</topicgiven>
+  <noofwords>300</noofwords>
+  <editsmade>2 </editsmade>  
+</technology>
+<technology bno="m2">
+  <authorname>Nancy</authorname>
+  <topicgiven>cyber security</topicgiven>
+  <noofwords>300</noofwords>
+  <editsmade>1 </editsmade>  
+</technology>
+<technology bno="m3">
+  <authorname>Hassan </authorname>
+  <topicgiven>Gadgets</topicgiven>
+  <noofwords>300</noofwords>
+  <editsmade>2 </editsmade>  
+</technology>
+<technology bno="m4">
+  <authorname>Mary</authorname>
+  <topicgiven>Mobile</topicgiven>
+  <noofwords>400</noofwords>
+  <editsmade>1 </editsmade>  
+</technology>
+<technology bno="m5">
+  <authorname>tezz</authorname>
+  <topicgiven>Gaming</topicgiven>
+  <noofwords>300</noofwords>
+  <editsmade>2 </editsmade>  
+</technology>
+
+
+</category>

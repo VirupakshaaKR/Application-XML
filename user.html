@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=y2B-T-nwaex0PH7YHBRbHr-QgMqTvc0vkFFzXHUnH2LTHprWUjwsJH-z_3KFXOBENzGppWKIIELloOiciSEtpijcbCGALx2bygFT8SyrROqXJ8MmSdnwERpTHxBts4zjIHHcdMe50J8R9qfBp6g2VYLZBUjyFx7d5NYtRS354J_7CwPdIYOt9fCrdvtwFApZuRtNJFsxR1btCLRS48lDS0DrBjD_5R-ZhFKFL2KqmyhdqSKwvpTlsq6CAZfjmiMhv6MW5jq-f9HR8sVwJ7Jl-5mnoKMzLQ9pYU6ZS6c28kyfdrRjbgrwjVKvjO998V5gpJ-Lz36wJWLp54JXEhuOfjHVTNmLIWfITNdpSbtlKylqw_UD3M0Rzr90ldChSCBZ9dRn6r8U3_fAFEo7OCZRxas0m7RDvFUMqS4tjvdONnaWL0HyCIlr4qoaeEsXebN9s26ACX1GdXT2b8KAyhmiYdLZ7vN7hHGMVZPHZlK-uHs_3IRU5PB9swQDdsfMuzOxFSHfeopRiTof1465j5xGr6xUQ7fojMiUcMfuMVbplXxHLvoiQjn0ql5jeXolbov-4z4lJBNLJy3yyZIxpBNDAnl8GkKjks6e_fogBSiMk6xwDjoxjOb5jJaBLRVK-_DB-rOibMkja3nXWBbwpdWIvqQcJtN8G04E4W4EUkCZOc8T5bnJdKE9_s1lJnT8sUWxXEveYBF5syFsQPvNQ-qIJqJQVRV5ffJ5CKn4WtqioUwgz1DsrkFiFYC8_EZacR6jA5jpxPeR-CGHLw7JpRC-Z0pl1DE-JPR7QnnAQfdSbGurBYIHRHM0vU2z5Xg8g4nCmrbgoTzDbE7wlHefvwN6oVknQcchOy25Nn3-zl2UcRAhYJzK7tlBKRlUGk9WWwXZ3uCurpgQ4HvsvzuOs9VSRsGQ2FujF3QWK8gVhb8Kv6AhLmxmycRL_BwvUxcFlaqO1qoh-bmkHkVNjPRs9RL9Dxpp7HnBMkKcqsFcKlGxiFG6du9-9iyfUMtexEY0VaDNPdR-x8k1UGxMZdoaeAQIN8Uf2xeFcnAxAD4s9kim41t9Yi-pwSqIlDKbusyjsP-N-ZGPawkf3IZX6-KKM9ZwDNhdrc4dnHzvGWsRhvlYEgFRAw-uSYYH6WpBPA3143FddwIKvoHN5Oje7zcttMrnsRhdT5UbSaWJ8-dbmdSrRb2OWgW0hSX4YNUo-NkpjoRKHlGYfXL50HbwTTVHlJ5Jmw" charset="UTF-8"></script><style>
+
+body {
+  background-image: url('blog.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  .div2{
+    background-color: powderblue;
+  width: 500px;
+  height: 400px;
+  padding:50px;
+  border: 10px solid black;
+}
+  </style>
+</head>
+<body>
+<h1><p style="color:white">BLOGREATE<p style="color:white"></h1><br><br><br>
+  <center>
+    <div class="div2">
+<h2><center>LOGIN DETAILS</center></h2>
+<h2><center>USER name and Category</center></h2>
+<br><br><br><br><br>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+</div1>
+</center>
+
+<script>
+var parser, xmlDoc;
+var text = "<user><name>Nicholas</name>" +
+  "<phone> 9845612475 </phone>" +
+  "<location> Brooklyn </location>" +
+  "<email> nickj@gmail.com </email>" +
+"</user>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+document.getElementById("demo2").innerHTML =
+xmlDoc.getElementsByTagName("user")[0].childElementCount;
+document.getElementById("demo").innerHTML =
+xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+document.getElementById("demo1").innerHTML =
+xmlDoc.getElementsByTagName("learnerlevel")[0].childNodes[0].nodeValue;
+</script>
+
+</body>
+
+</html>

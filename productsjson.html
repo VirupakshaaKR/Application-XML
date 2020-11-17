@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=E3cm3A_WnB2BD3IQxmP0rtNv5Z8SORxGGCydzWqaVuLyIDv0dotcZf-UDDpigQINfVD1hak1kNINN21FTK4p-mhSSgZdzpY-P5fNQnFywJ2G_tU2KxV4LAnp4Ow8i-tjAWirAJn7a1yfIS1fjzwF5WxHVl8714fWHW6q176qQpKR7fw8ECyaGFs7BtzYqlmTauJlu4CZRxv2v76y7wlNJyn8tZZkS4FTkFmCF4JEexin7M1Gd6vNMCjps4k4bryqs0X4uFL9stbdsrV-kWoeCUn4B4mBr_jcwq9XsxOqdcedeMK1k15GHjKp6WIo5ouY9J4x8np2TRo7UWXo6XvHpACIXjsu9Uhyl-JlOuXEPYw2iyeP8ENvrvRelrjbOIG0zr0ExKPmLjpimsHl7SXd0pMfACNLsFjcAzI5u8lCK15owBNWpmYycJ50eTETFarOXSmIdsoy0vk308Sy_f0wKEnVpnozlfHPcB36B77G8XYnCFE6uQrqYantTJVvyMIAFeDC3vCHwj5UYDri6KwAiC6XK7nvLwGJiUgQ2J6FB84UuDbjt8qakE74NsvxK0mOYc4dJUqm7muhTlTyyTGxN31iGkn_hz-cq57enNx6zqiLtgJskDOBmq_SKQrLk5phSFzyu0Db6AcKzjPWrfw2vw8pK945zyvwPLt31-lXLYEl42fPMlbxy1yCP9I68O50Jvh0jlADM_4Hu7D8IknStxw5Lnhkp7HbOYmdGdZJgz5d2w_l98Rlxa4qpQVuU__lW3cZKd8SvZjJMVTN0scAh8zHbzQqYGsyvNSPRTme0Sv61vBFAZxoMuj95S9i8ml-4O17fnxX2zysCiANKITFmUdmdxvnkNQIPT0OvIVqHcKnO_5tiaLu3KDVdHuZHO27Bia-iq68oNDJk81Pv_-BTLbE8wyUA-yd6nhQjvimxFBAK0dmpSHdc-b6BCspqLdszDuTMqszvODqCszGZUpWart1_BroRx0dMFXsLl8x1DzWszuwfUC530u8SMz7N5umNrXHL_fBjExNQe6UuqMgILs3UsVdNuCcPCAykabQWdS1BHtKxQWCrQwEQEIBzu8V3_NUNML_-bwgAXc8NINR1zP5Pgo96v2HHHY-AHiuD8nn8-j8g9C7tx9Oa7bxCtw6SZoPYUSMy6Boge0hE7dxtFoM9sln8dJAIjW8gFeiX6IuNVi39BTgvkGmKB8hp-Krm6tDu9OcjcVewmutBk8jPg" charset="UTF-8"></script><style>
+    .div1{
+      background-color:powderblue;
+      width: 500px;
+      height: 350px;
+      padding:50px;
+      border: 10px solid black;
+    }
+    body {
+      background-image: url('blog.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+  </head>
+<body>
+
+<h1>LET'S CREATE AND MAKE MORE BLOGS</h1><br><br><br>
+<center>
+      <div class="div1">
+        <h2>TOPICs</h2><br><br>
+<ul id="demo"></ul>
+<ul id="demo1"></ul>
+<ul id="demo2"></ul>
+<ul id="demo3"></ul>
+<ul id="demo4"></ul>
+<ul id="demo5"></ul>
+</div1>
+</center>
+
+<script>
+var text = '{"category":[' +
+'{"symbol":"Science","example":"What is a black hole ?" },' +
+'{"symbol":"Technolgy","example":"Comparison between iphone12 and iphone12 pro." },' +
+'{"symbol":"Lifestyle","example":"Is green tea beneficial ?" },' +
+'{"symbol":"Fashion","example":"Sabyasachi lehenga - yay or Nay " },' +
+'{"symbol":"Pets","example":"Labs can supercute !" },' +
+'{"symbol":"others","example":"etc" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML ="<li>"+
+obj.category[0].symbol + " - " + obj.category[0].example +"</li>";
+document.getElementById("demo1").innerHTML ="<li>"+
+obj.category[1].symbol + " - " + obj.category[1].example +"</li>";
+document.getElementById("demo2").innerHTML ="<li>"+
+obj.category[2].symbol + " - " + obj.category[2].example +"</li>";
+document.getElementById("demo3").innerHTML ="<li>"+
+obj.category[3].symbol + " - " + obj.category[3].example +"</li>";
+document.getElementById("demo4").innerHTML ="<li>"+
+obj.category[4].symbol + " - " + obj.category[4].example +"</li>";
+document.getElementById("demo5").innerHTML ="<li>"+
+obj.category[5].symbol + " - " + obj.category[5].example +"</li>";
+</script>
+
+</body>
+</html>
